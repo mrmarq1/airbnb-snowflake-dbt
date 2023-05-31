@@ -7,3 +7,7 @@ Project aims to provide practice for Snowflake-dbt stack. Cloud-based pipeline t
 - Loaded RDS data into related tables in Snowflake.
 - Created local 'dbtlearn' project (dbt-snowflake version 1.5.0).
 - Established connection with Snowflake account and previously set-up database.
+
+## Created staging layer (raw layer transformations)
+
+- Added 3 'src' dbt models to perform lightweight transformations of raw layer creating thre views: src_hosts, src_listings and src_reviews.
