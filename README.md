@@ -28,3 +28,9 @@ Lightweight project that aims to provide practice for Snowflake-dbt stack. Cloud
 ## Created snapshot
 
 - Snapshotted raw_listings so SCD type 2 updating strategy applied to new record insertion.
+
+
+## Testing implemented
+
+- Experimented with a variety of generic and singular tests via a schema.yml file and sql files in the 'tests' folder respectively.
+- Created a macro that checked a table for no nulls and implemented it in a singular test on dim_listings_cleaned.
